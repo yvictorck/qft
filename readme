@@ -1,0 +1,6 @@
+
+for running 2 point QFT
+$ mpicxx ./qft7.cpp ;mpirun -n 4 ./a.out
+
+for running 3 point QFT
+$ mpicxx ./qft7.cpp ;mpirun -n 8 ./a.out
